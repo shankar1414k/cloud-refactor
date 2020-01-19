@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+
+#title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+#records {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+#records td, #records th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#records tr:nth-child(even){background-color: #f2f2f2;}
+
+#records tr:hover {background-color: #ddd;}
+
+#records th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.form-tab{    
+  margin-top: 26px;
+  background-color: aliceblue;
+  padding: 20px;
+  text-align: left;
+}
+
+.title{
+  text-align: center;
+  padding: 0 5px 0 0;
+}
+
+.button-continue{
+  margin-top: 10px;
+}
+
+.cr-side-nav{
+  display:flex; 
+  flex-direction:row;
+}
